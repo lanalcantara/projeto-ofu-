@@ -31,6 +31,17 @@ body {
 .navbar-brand img {
   max-height: 50px; /* Ajuste para um tamanho adequado */
   width: auto;
+  height: 90%;
+}
+.novidades {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+  background-color: #dc3545; /* bg-danger do Bootstrap */
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .card {
