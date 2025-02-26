@@ -1,0 +1,64 @@
+body {
+  background-color: #fff5f7;
+  color: #6c757d;
+}
+.navbar {
+  background-color: #fff5f7 !important; /* Cor vermelha do Bootstrap */
+}
+
+.navbar .nav-link {
+  color: #8B0000 !important; /* Cor desejada */
+  font-weight: bold; /* Deixa o texto mais forte */
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Ajuste o espaçamento entre a logo e o texto */
+  
+}
+
+.navbar-nav .nav-link {
+  color: #ff4d6d !important;
+  font-weight: bold;
+  padding: 10px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto verticalmente */
+  gap: 5px; /* Ajusta o espaço entre o logo e o nome */
+}
+.navbar-brand img {
+  max-height: 50px; /* Ajuste para um tamanho adequado */
+  width: auto;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card-img-top {
+  height: 200px;  /* Defina um tamanho fixo */
+  object-fit: cover; /* Garante que a imagem não distorça */
+  width: 100%;  /* Mantém responsivo */
+}
+
+.card-body {
+  flex-grow: 1; /* Faz o conteúdo expandir igualmente */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+footer {
+  background-color: #ff4d6d;
+}
+.logo {
+  max-height: 50px; /* Redimensiona a logo para um tamanho mais adequado */
+  width: auto;
+}
