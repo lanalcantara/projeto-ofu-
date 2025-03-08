@@ -1,7 +1,4 @@
-* {
-  max-width: 100%;
-  overflow-x: hidden;
-}
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
@@ -76,9 +73,11 @@ body {
 }
 
 .card {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden; /* Remove a barra de rolagem */
+  max-height: 100%; /* Garante que não fique maior do que deveria */
+
 }
 .card-img-top {
   height: 200px;  /* Defina um tamanho fixo */
@@ -103,4 +102,7 @@ footer {
 .logo {
   max-height: 50px; /* Redimensiona a logo para um tamanho mais adequado */
   width: auto;
+}
+html, body {
+  overflow-x: hidden;
 }
