@@ -2,7 +2,7 @@
     "name": "OFuê",
     "short_name": "OFuê",
     "description": "Cardápio online da loja OFuê",
-    "start_url": "/index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ff5722",

@@ -27,6 +27,10 @@ body {
   color: white;
 
 }
+  .telainicial {
+    background-color: #ff4d6d  ;
+  }
+
 .navbar {
   background-color: #fff5f7 !important; /* Cor vermelha do Bootstrap */
 }
