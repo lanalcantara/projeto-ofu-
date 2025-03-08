@@ -1,0 +1,57 @@
+body {
+    background-color: #fff5f7;
+    color: #6c757d;
+  }
+  .btn-btn-secondary-dropdown-toggle {
+    background-color: #dc3545;
+    color: white;
+  
+  }
+  .navbar {
+    background-color: #fff5f7 !important; /* Cor vermelha do Bootstrap */
+  }
+  
+  .navbar .nav-link {
+    color: #8B0000 !important; /* Cor desejada */
+    font-weight: bold; /* Deixa o texto mais forte */
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajuste o espaçamento entre a logo e o texto */
+    
+  }
+  .btn btn-outline{
+    background-color: #dc3545;
+    color: white;
+  
+  }
+  .navbar-nav .nav-link {
+    color: #ff4d6d !important;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+    gap: 5px; /* Ajusta o espaço entre o logo e o nome */
+  }
+  .navbar-brand img {
+    max-height: 50px; /* Ajuste para um tamanho adequado */
+    width: auto;
+    height: 90%;
+  }
+
+  .card {
+    height: 100%;
+    display: flex;
+  flex-direction:row;
+   
+  }
+  .card-img-top {
+    height: 200px;  /* Defina um tamanho fixo */
+    object-fit: cover; /* Garante que a imagem não distorça */
+    width: 50%;  /* Mantém responsivo */
+  }
+  

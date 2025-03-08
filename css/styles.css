@@ -2,6 +2,11 @@ body {
   background-color: #fff5f7;
   color: #6c757d;
 }
+.btn-btn-secondary-dropdown-toggle {
+  background-color: #dc3545;
+  color: white;
+
+}
 .navbar {
   background-color: #fff5f7 !important; /* Cor vermelha do Bootstrap */
 }
@@ -17,7 +22,11 @@ body {
   gap: 10px; /* Ajuste o espaçamento entre a logo e o texto */
   
 }
+.btn btn-outline{
+  background-color: #dc3545;
+  color: white;
 
+}
 .navbar-nav .nav-link {
   color: #ff4d6d !important;
   font-weight: bold;
@@ -37,11 +46,10 @@ body {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 20px;
-  color: white;
-  background-color: #dc3545; /* bg-danger do Bootstrap */
-  padding: 10px;
-  border-radius: 5px;
+  margin-top: 0px;
+  color: #dc3545;
+  padding: 30px;
+  border-radius: 50px;
 }
 
 .card {
