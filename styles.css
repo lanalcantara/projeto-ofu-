@@ -11,10 +11,27 @@
     text-align: center;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+ 
+}
+.carousel-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente (se necessário) */
+  height: auto; /* Ajusta conforme o conteúdo */
+  padding: 40px; /* Espaçamento ao redor */
+}
+
+.carousel-inner { 
+  width: 100%; /* Ajuste esse valor para o tamanho desejado */
+  max-width: 500px; /* Máximo que pode ocupar */
+  height: auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Mantém a proporção correta */
+  object-fit: cover; /* Evita distorção */
+  border-radius: 10px; /* Deixa as bordas arredondadas (opcional) */
 }
 
 
